@@ -24,3 +24,6 @@ The function 'do_test' imports all of the necessary data for the user: The exper
 
 Once the experimental data has been merged, use the 'make_big_array' function to generate an array containing all of the available data at each measurement point. Finally, use a 'get_Velocity' function to generate the velocity data from the array, and apply the function 'downwash_correction' on the function. Your velocity data is now generated for each sample point. Use 'basic_quiver' to plot the velocity data.
 
+#### NOTE
+Should the data be in the same shape as the data used in the experiment, i.e. 30x30 - simply run the single function 'run_all' - this will run everything and present the resulting quiver plot
+
